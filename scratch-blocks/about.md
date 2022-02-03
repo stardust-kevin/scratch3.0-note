@@ -1,4 +1,4 @@
-# 了解 Block
+# 了解Block
 
 打开 [Scratch3.0](https://scratch.mit.edu/projects/editor/) 查看左侧的积木，会发现每个分类的积木颜色、形状、组成各有异同。他们形状不同代表了什么区别呢？一个积木块上面有又一些不一样的元素组成，这些元素是什么？我怎么能定义一个我自己的积木呢？
 
@@ -8,16 +8,16 @@
 
 | UI 形状 | 类型 | 功能 |
 --|--|--
-<img src="./blocks/command.png" /> | 命令类型 Command | 执行一条命令
-<img src="./blocks/number.png" /> | 数值或字符串类型 Number or String | 读取一个数值或字符串
-<img src="./blocks/boolean.png" /> | 布尔类型 Boolean | 返回 True 或 False
-<img src="./blocks/hat.png" /> | 事件类型 Event (也被叫做 帽子块 hat) | 监听一个事件
-<img src="./blocks/condition.png" /> | 条件类型 Condition | 根据条件的结果，执行不同的分支
-<img src="./blocks/button.png" /> | 按钮 Button | 就是按钮的功能，可以添加一个点击后的回调事件
+<img src="./img/command.png" /> | 命令类型 Command | 执行一条命令
+<img src="./img/number.png" /> | 数值或字符串类型 Number or String | 读取一个数值或字符串
+<img src="./img/boolean.png" /> | 布尔类型 Boolean | 返回 True 或 False
+<img src="./img/hat.png" /> | 事件类型 Event (也被叫做 帽子块 hat) | 监听一个事件
+<img src="./img/condition.png" /> | 条件类型 Condition | 根据条件的结果，执行不同的分支
+<img src="./img/button.png" /> | 按钮 Button | 就是按钮的功能，可以添加一个点击后的回调事件
 
 我们会看到有的积木上也有一些形状跟数值、字符串和布尔类型的积木形状类似，而我们也可以把他们嵌入到对应形状的积木里，就像我们也可以把命令型的积木嵌入到条件类型的积木里面一样。如图：
 
-<img src="./blocks/blocks.png" />
+<img src="./img/blocks.png" />
 
 这是因为这些位置也是一种特殊的 block，被称为 shadow block，与 XML 对应的有些积木里有 shadow 标签，如：
 ```html
@@ -78,7 +78,7 @@ ScratchBlocks.Blocks['motion_movesteps'] = {
 ```
 除了 ```message0```、 ```args0``` 还可以有 ```message1```、 ```args1```等，表明这个积木是多行的，如 if-else 的定义：
 
-<img src="./blocks/condition.png" />
+<img src="./img/condition.png" />
 
 ```javascript
 import ScratchBlocks from 'scratch-blocks';

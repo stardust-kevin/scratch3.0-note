@@ -3,5 +3,5 @@
 
 下面是我对Scratch Blocks的一些理解。
 
-- [Scratch Blocks简述](./brief.md)
-- [scratch blocks了解Block](./about.md)
+- [简述](./brief.md)
+- [了解Block](./about.md)

@@ -18,7 +18,7 @@ Toolbox、Category、Flyout、Workspace和Block是我们从 UI 中第一眼看�
 ### Xml
 负责将XML文档解析成DOM节点，将DOM代表的积木渲染到Workspace上。还可以将Workspace中的Blocks转化成XML字符串。简单的代码示例如下：
 
-xml 字符串渲染成积木
+xml字符串渲染成积木
 ```javascript
     // 一个 xml 字符串，包含若干个 block
     const xmlText = '<xml><block type="motion_xposition" /></xml>';
@@ -27,7 +27,7 @@ xml 字符串渲染成积木
     // 将 DOM 对象再解析成 block 渲染到目标 workspace 中，这时候就可以在浏览器上看到积木块了
     const blockIds = Blockly.Xml.domToWorkspace(xmlDom, Blockly.mainWorkspace);
 ```
-获取 workspace 的 xml 字符串
+获取workspace的xml字符串
 ``` javascript
     // 将 workspace 中的积木转化成 DOM 对象
     const xmlDom = Blockly.Xml.workspaceToDom(Blockly.mainWorkspace);

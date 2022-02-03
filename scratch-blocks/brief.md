@@ -1,6 +1,6 @@
 # Scratch Blocks简述
 我们先从UI来了解Scratch Blocks界面的组成：
-<img src='./scratch-blocks.png'/>
+<img src='./img/scratch-blocks.png'/>
 
 ### Toolbox
 红色框部分叫做Toolbox，用来展示所有的积木分类，会根据用户的选择显示某个选中分类下的所有积木。
